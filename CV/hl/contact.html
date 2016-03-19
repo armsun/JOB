@@ -9,9 +9,7 @@
     <header>
         <div id="header info">
             <h1 style="text-align:center"><strong>Arman Gevorgyan</strong></h1>
-
             <hr />
-            </p>
         </div>
         <div id="info">
             <div class="info_table">
@@ -28,7 +26,6 @@
                                 <br />
                                 Mobile: <a href="tel:+37499002091"> (+374) 99 00-20-91</a>
                             </address>
-
                         </td>
                         <td width="300">
                             <address>
@@ -45,41 +42,71 @@
                             <figure>
                                 <img src="../img/img_cv.jpg" height="130" alt="CV image" width="130" />
                             </figure>
-
                         </td>
                     </tr>
                 </table>
-
             </div>
         </div>
+        <hr />
     </header>
     <main>
         <div id="contact_form">
-            <form name="contctform" action="#" method="post">
-                <fieldset style="width:400px">
+            <form name="contctform" action="" method="post">
+                <fieldset style="width:300px">
                     <legend>Contact to Arman Gevorgyan</legend>
-                    <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+
                     <div>
-                        <label for="Name">Your name:</label>
-                        <input id="Name" name="Full_name" placeholder="Full Name" type="text" required />
-                        <strong><abbr title="required">*</abbr></strong>
+                        <p>
+                            <label for="Name">
+                                Your name:
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label><br />
+                            <input id="Name" name="Full_name" placeholder="Full Name" type="text" required />
+
+                        </p>
                     </div>
                     <div>
-                        <label for="Email">E-mail</label>
-                        <input id="Email" name="User_Email" placeholder="email@domain.com" type="email" required/>
-                        <strong><abbr title="required">*</abbr></strong>
+                        <p>
+                            <label for="Email">
+                                E-mail:
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label><br />
+                            <input id="Email" name="User_Email" placeholder="you@domain.com" type="email" required />
+
+                        </p>
                     </div>
                     <div>
-                        <label for="Message">Message</label>
-                        <span>
-                            <textarea id="Message" name="Message" placeholder="Your Message ..." cols="25" rows="10" required> </textarea>
-                            <strong><abbr title="required">*</abbr></strong>
-                        </span>
+                        <p>
+                            <label for="Subject">
+                                Subject:
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label><br />
+                            <select id="Subject" name="User_Subject" required>
+                                <option value="none">Choose subject</option>
+                                <option value="Production">Production </option>
+                                <option value="Web_Design">Web Design</option>
+                                <option value="Marketing">Marketing</option>
+                            </select>
+
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <label for="contact-msg">
+                                Message:
+                                <strong><abbr title="required">*</abbr></strong>
+                            </label><br />
+                            <textarea id="contact-msg" cols="25" rows="8" placeholder="Enter your message here" required></textarea>
+                        </p>
                     </div>
                     <div class="button">
-                        <button type="submit"> Send your Message</button>
-
+                        <p>
+                            <button type="submit"> Send your Message</button>
+                        </p>
                     </div>
+                    <p>
+                        <small>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</small>
+                    </p>
                 </fieldset>
             </form>
         </div>
