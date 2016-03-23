@@ -1,0 +1,51 @@
+﻿body {
+   
+    background-color :darkturquoise;
+    
+}
+
+h1 {
+    text-align : center;
+}
+#header-info p {
+    color :blue;
+    text-align:center;
+
+}
+#contact-from {
+    width:300px;
+    background:red;
+}
+    #contact-from p {
+        color:yellow;
+    }
+   
+     #navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+    }
+    
+     #navigation li {
+    float:left;
+    
+    }
+
+    #navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    }
+
+    #navigation li a:hover {
+        background-color:black;
+    }
+    #search {
+        display:block;
+        padding:14px 5px;
+        width:300px;
+    }
